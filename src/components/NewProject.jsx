@@ -11,7 +11,6 @@ export default function NewProject({ onAdd, onCancel }) {
         const enteredTitle = title.current.value;
         const enteredDescription = description.current.value;
         const enteredDueDate = duedate.current.value;
-
         if (
             enteredTitle.trim() === "" ||
             enteredDescription.trim() === "" ||
