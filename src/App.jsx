@@ -71,6 +71,7 @@ function App() {
                 id: projectId,
             };
             return {
+                ...prevState,
                 selectedProjectId: undefined,
                 projects: [...prevState.projects, newProject],
             };
